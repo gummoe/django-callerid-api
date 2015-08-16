@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import Http404
+from django.http import HttpResponseBadRequest
 from .models import Contact
 import csv
 
@@ -8,6 +9,14 @@ import csv
 def index(request):
     return HttpResponse('Oh hello there')
 
+
+def query(request):
+    if request.method == 'POST':
+        return True
+    elif request.method == 'GET':
+        return HttpResponse('Made it')
+    else:
+        return HttpResponseBadRequest('Method not supported')
 
 def file_load(request):
     """

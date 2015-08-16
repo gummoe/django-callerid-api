@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+            <state line="16" column="38" selection-start="402" selection-end="402" vertical-scroll-proportion="0.2920354" vertical-offset="75" max-vertical-offset="990">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -37,31 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CallerIdAPI/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-data.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-data.csv">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="538" selection-end="538" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CallerIdAPI/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565">
+            <state line="9" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -85,8 +64,8 @@
         <option value="$PROJECT_DIR$/CallerIDProject/settings.py" />
         <option value="$PROJECT_DIR$/CallerIDProject/urls.py" />
         <option value="$PROJECT_DIR$/CallerIdAPI/models.py" />
-        <option value="$PROJECT_DIR$/CallerIdAPI/views.py" />
         <option value="$PROJECT_DIR$/CallerIdAPI/urls.py" />
+        <option value="$PROJECT_DIR$/CallerIdAPI/views.py" />
       </list>
     </option>
   </component>
@@ -460,37 +439,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallerIdAPI/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-data.csv">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="538" selection-end="538" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="525">
+        <state line="14" column="32" selection-start="538" selection-end="538" vertical-scroll-proportion="0.39033458" vertical-offset="0" max-vertical-offset="538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
+    <entry file="file://$PROJECT_DIR$/CallerIdAPI/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state line="6" column="43" selection-start="175" selection-end="175" vertical-scroll-proportion="0.15929204" vertical-offset="0" max-vertical-offset="565">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CallerIdAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565">
+        <state line="9" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="402" selection-end="402" vertical-scroll-proportion="0.2920354" vertical-offset="75" max-vertical-offset="990">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
