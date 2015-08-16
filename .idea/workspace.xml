@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1278248-cdb4-4898-86ed-4fde0906efc6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CallerIdAPI/urls.py" afterPath="$PROJECT_DIR$/CallerIdAPI/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CallerIdAPI/views.py" afterPath="$PROJECT_DIR$/CallerIdAPI/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CallerIDProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="516" selection-end="516" vertical-scroll-proportion="0.25663716" vertical-offset="140" max-vertical-offset="720">
+            <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CallerIdAPI/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -84,16 +84,16 @@
       <list>
         <option value="$PROJECT_DIR$/CallerIDProject/settings.py" />
         <option value="$PROJECT_DIR$/CallerIDProject/urls.py" />
-        <option value="$PROJECT_DIR$/CallerIdAPI/urls.py" />
         <option value="$PROJECT_DIR$/CallerIdAPI/models.py" />
         <option value="$PROJECT_DIR$/CallerIdAPI/views.py" />
+        <option value="$PROJECT_DIR$/CallerIdAPI/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="599" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="1321" />
     <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -174,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.lastSelected" value="editor.preferences.smartKeys" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -404,7 +404,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="979" extended-state="0" />
+    <frame x="599" y="23" width="1321" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -413,7 +413,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18168055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918552" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -460,15 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallerIdAPI/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CallerIdAPI/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="43" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -488,9 +479,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="516" selection-end="516" vertical-scroll-proportion="0.25663716" vertical-offset="140" max-vertical-offset="720">
+        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallerIdAPI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.21238938" vertical-offset="0" max-vertical-offset="565">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
