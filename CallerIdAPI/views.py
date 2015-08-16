@@ -3,5 +3,8 @@ from django.http import HttpResponse
 from .models import Contact
 
 
-def file_load():
+def index(request):
     return HttpResponse('Oh hello there')
+
+def file_load(request):
+    return HttpResponse('Going to load the file allllright')
