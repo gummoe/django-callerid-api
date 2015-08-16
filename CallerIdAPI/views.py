@@ -57,6 +57,7 @@ def number(request):
             new_contact.name = post_body['name']
             new_contact.number = post_number
             new_contact.context = post_body['context']
+            new_contact.save()
 
         return HttpResponse(status=200)
     else:

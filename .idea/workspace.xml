@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1278248-cdb4-4898-86ed-4fde0906efc6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CallerIdAPI/urls.py" afterPath="$PROJECT_DIR$/CallerIdAPI/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CallerIdAPI/views.py" afterPath="$PROJECT_DIR$/CallerIdAPI/views.py" />
     </list>
     <ignored path="CallerIDProject.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="337" selection-end="337" vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="1890">
+            <state line="59" column="30" selection-start="2583" selection-end="2583" vertical-scroll-proportion="0.71681416" vertical-offset="480" max-vertical-offset="1905">
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -476,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CallerIdAPI/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="337" selection-end="337" vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="1890">
+        <state line="59" column="30" selection-start="2583" selection-end="2583" vertical-scroll-proportion="0.71681416" vertical-offset="480" max-vertical-offset="1905">
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
