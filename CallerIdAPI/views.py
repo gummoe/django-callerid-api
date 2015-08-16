@@ -1,8 +1,8 @@
-from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import Http404
 from django.http import HttpResponseBadRequest
 from .models import Contact
+import json
 import csv
 
 
@@ -14,14 +14,28 @@ def query(request):
     if request.method == 'POST':
         return True
     elif request.method == 'GET':
-        return HttpResponse('Made it')
+        request_number = request.GET.get('number', '')
+        request_number = conform_number(request_number)
+        located_contacts = Contact.objects.filter(number=request_number)
+        if located_contacts:
+            outgoing_contacts = []
+            for contact in located_contacts:
+                outgoing_contact = {}
+                outgoing_contact['name'] = contact.name
+                outgoing_contact['number'] = contact.number
+                outgoing_contact['context'] = contact.context
+                outgoing_contacts.append(outgoing_contact)
+            return HttpResponse(json.dumps({"results": outgoing_contacts}))
+        else:
+            raise Http404('No contacts found')
     else:
         return HttpResponseBadRequest('Method not supported')
+
 
 def file_load(request):
     """
     This function loads a file with the specified name. The file name is hard-coded to interview-callerid-data.csv and
-    must be placed in the project root
+    must be placed in the project root. Depending on the file size, this could take awhile...
     """
     try:
         csv_data = open('interview-callerid-data.csv', 'rU')
